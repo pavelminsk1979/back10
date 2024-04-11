@@ -37,7 +37,7 @@ export const usersService = {
         if (!idNewUser) return null
 
 const user =  await userQueryRepository.findUserById(idNewUser)
-        debugger
+
         return user
 
     },
