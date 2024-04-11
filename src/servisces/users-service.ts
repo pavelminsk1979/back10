@@ -26,7 +26,7 @@ export const usersService = {
             },
             blackListRefreshToken:[]
         }
-        debugger
+
         const result= await usersRepository.createUser(newUser)
 
        // const idNewUser = result.insertedId.toString()
