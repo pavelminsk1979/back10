@@ -1,7 +1,7 @@
 import {app} from "./settings";
 import { runDb} from "./db/mongoDb";
 
-export const port = 3000
+ const port = 3000
 
 const startApp=async ()=>{
     await runDb()
